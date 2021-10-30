@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    position: relative;
+    background: linear-gradient(#101f27f1 50%, #101f27 50%);
+    color: #ffffff;
+    width: 450px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.pagination button {
+    cursor: pointer;
+    position: absolute;
+    color: #ffffff;
+    background: transparent;
+    font-size: 32px;
+    line-height: 70px;
+    width: 50px;
+    opacity: .7;
+    transition: all .4s;
+}
+
+.pagination button:hover {
+    opacity: 1;
+}
+
+.pagination .prev {
+    left: 5px;
+}
+
+.pagination .next {
+    right: 5px;
+}
+
+.pagination .p-item {
+    font-size: 25px;
+    padding: 0 20px;
+    opacity: .2;
+    transition: all .4s;
+}
